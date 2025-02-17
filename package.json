@@ -1,0 +1,41 @@
+{
+  "name": "godly_life",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^17.0.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
+    "jose": "^5.9.6",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-big-calendar": "^1.17.0",
+    "react-calendar": "^5.1.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^9.2.0",
+    "react-spinners": "^0.15.0",
+    "redux": "^5.0.1",
+    "swiper": "^11.1.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-big-calendar": "^1.16.0",
+    "@types/react-dom": "^18",
+    "@types/react-helmet": "^6.1.11",
+    "typescript": "^5"
+  }
+}
