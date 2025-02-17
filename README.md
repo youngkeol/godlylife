@@ -8,7 +8,7 @@
 <br>
 <br>
 
-### 👼🏻 갓생 소개 <br>
+### 👼🏻 갓생 소개
 갓생은 할 일, 목표, 메모를 효과적으로 관리할 수 있는 웹 애플리케이션입니다.<br>
 Next.js를 기반으로 개발되었으며, react-big-calendar 라이브러리를 사용해 달력 기능을 구현하고, 상태 관리는 Redux를 활용했습니다.
 
@@ -29,7 +29,7 @@ Next.js를 기반으로 개발되었으며, react-big-calendar 라이브러리�
 <br>
 <br>
 
-### 🛠 사용 기술 <br>
+### 🛠 사용 기술
 1. Frontend: React, Next.js<br>
 2. 상태 관리: Redux<br>
 3. 달력 기능: react-big-calendar<br>
@@ -39,7 +39,7 @@ Next.js를 기반으로 개발되었으며, react-big-calendar 라이브러리�
 <br>
 
 
-### 👍🏻 후기 <br>
+### 👍🏻 후기
 이 프로젝트를 진행하면서 Next.js를 활용한 개발 경험을 쌓을 수 있었습니다.<br>
 또한, react-big-calendar를 적용하는 방법을 익히고 Redux를 활용한 상태 관리도 경험하며, 앞으로 어떻게 활용할지 감을 잡게 되었습니다.<br>
 개발 과정에서 UI/UX 개선의 필요성을 많이 느꼈지만, 혼자 진행한 토이 프로젝트인 만큼 일단 마무리하는 것을 목표로 했습니다.<br>
