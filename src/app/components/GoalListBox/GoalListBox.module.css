@@ -1,0 +1,184 @@
+.goal-list-box {
+  padding-bottom: 40px
+}
+
+.goal-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.goal-box-empty {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+  background-color: #fff;
+  text-align: center;
+  padding:15px;
+  line-height: 1.6;
+}
+
+.goal-box {
+  position: relative;
+  width: calc(33.33% - 14px);
+  height: 120px;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+  background-color: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.goal-box-title {
+  width: 100%;
+  font-weight: 500;
+  /*줄바꿈처리 : 한줄처리(줄바꿈x)*/
+  white-space: nowrap;
+  /*튀어나온 것을 없앤다*/
+  overflow: hidden;
+  /*글자가 넘을 경우 ...만들기*/
+  text-overflow: ellipsis;
+  margin-bottom: 12px;
+}
+
+.goal-box-status {
+  margin-bottom: 10px;
+  font-size: 12px;
+  float: left;
+  --padding: 5px 8px 4px 8px;
+  padding: 7px 10px 6px 10px;
+  border-radius: 10px;
+  color: #e66a6a;
+  background-color: #ffe1ee;
+}
+
+.red .goal-box-status {
+  color: #e66a6a;
+  background-color: #ffe1ee;
+}
+
+
+.yellow .goal-box-status {
+  color: #f4cd58;
+  background-color: #fff6d5;
+}
+
+
+.green .goal-box-status {
+  color: #85d68c;
+  background-color: #e3f6df;
+}
+
+
+.blue .goal-box-status {
+  color: #63c8e1;
+  background-color: #eaf7fd;
+}
+
+
+.purple .goal-box-status {
+  color: #a67dd6;
+  background-color: #f3eafd;
+}
+
+.black .goal-box-status {
+  color: #5a5a5a;
+  background-color: #e5e5e5;
+}
+
+.goal-box-util {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:19px;
+  right:20px;
+  gap: 4px;
+}
+.goal-box-more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:30px;
+  height: 26px;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  cursor:pointer
+}
+.goal-box-more-btn > i {
+  font-size: 15px;
+  color:#737373;
+}
+.goal-box-more-btn:hover {
+  background-color: #cecece;
+}
+
+.goal-box-more-box {
+  position: absolute;
+  right:0;
+  top:32px;
+  transform: translateX(25%);
+  background-color: #fff;
+  border:1px solid #eaeaea;
+  border-radius: 10px;
+  z-index: 6;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+  overflow: hidden;
+}
+
+
+
+
+.goal-box-del-btn,
+.goal-box-udt-btn {
+  width: 50px;
+  padding:4px 4px 4px 4px;
+  text-align: center;
+  font-size: 13px; 
+}
+.goal-box-udt-btn {
+  border-bottom:1px solid #eaeaea;
+}
+
+.goal-box-del-btn:hover,
+.goal-box-udt-btn:hover {
+  background-color: #eaeaea;
+}
+
+
+
+
+
+.goal-box-udt-btn > i,
+.goal-box-del-btn > i {
+  font-size: 14px;
+  color:#737373;
+}
+.goal-box-udt-btn:hover > i {
+  color: #5b78eb;
+}
+.goal-box-del-btn:hover > i {
+  color:#f49090;
+}
+
+
+
+
+
+@media screen and (max-width: 998px) {
+  .goal-list-box {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .goal-list {
+    gap: 10px;
+  }
+
+  .goal-box {
+    width: 100%;
+
+  }
+}

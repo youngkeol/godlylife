@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'KOTRA_BOLD';
+  font-style: normal;
+  font-weight: 700;
+  src: local('KOTRA_BOLD'),
+    url('./KOTRA_BOLD.otf') format('opentype'),
+    url('./KOTRA_BOLD.ttf') format('truetype');
+}

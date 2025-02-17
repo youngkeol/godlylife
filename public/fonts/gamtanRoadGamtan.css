@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'GamtanRoadGamtan';
+  font-style: normal;
+  font-weight: 700;
+  src: local('GamtanRoadGamtan'),
+    url('./GamtanRoadGamtan.otf') format('opentype'),
+    url('./GamtanRoadGamtan.ttf') format('truetype');
+}

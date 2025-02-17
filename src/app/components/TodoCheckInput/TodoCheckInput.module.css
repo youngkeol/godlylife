@@ -1,0 +1,137 @@
+.todo-check-box {
+  position: absolute;
+  left: 36px;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  transform: translateY(-50%);
+}
+
+
+.todo-check-box input {
+  position: absolute;
+  left: -99999px;
+}
+
+.todo-check-box label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ffe1ee;
+  border: 1px solid #e6696a;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.todo-check-box label>i {
+  display: none;
+  color: #f28da3;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.todo-check-box input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #fde7ec;
+  color: white;
+  border-color: #f28da3;
+}
+
+.todo-check-box input[type="checkbox"]:checked+.todo-check-label>i {
+  display: block;
+}
+
+/* 색상 변경 */
+.todo-check-box.red label {
+  background-color: #fde7ec;
+  border: 1px solid #f28da3;
+}
+
+.todo-check-box.red label>i {
+  color: #f28da3;
+}
+
+.todo-check-box.red input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #ffe1ee;
+  border-color: #e6696a;
+}
+
+.todo-check-box.yellow label {
+  background-color: #fff6d5;
+  border: 1px solid #f4cd58;
+}
+
+.todo-check-box.yellow label>i {
+  color: #f4cd58;
+}
+
+.todo-check-box.yellow input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #fff6d5;
+  border-color: #f4cd58;
+}
+
+.todo-check-box.green label {
+  background-color: #e3f6df;
+  border: 1px solid #85d68c;
+}
+
+.todo-check-box.green label>i {
+  color: #85d68c;
+}
+
+.todo-check-box.green input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #e3f6df;
+  border-color: #85d68c;
+}
+
+
+
+.todo-check-box.blue label {
+  background-color: #eaf7fd;
+  border: 1px solid #63c8e1;
+}
+
+.todo-check-box.blue label>i {
+  color: #63c8e1;
+}
+
+.todo-check-box.blue input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #eaf7fd;
+  border-color: #63c8e1;
+}
+
+.todo-check-box.purple label {
+  background-color: #f3eafd;
+  border: 1px solid #a67dd6;
+}
+
+.todo-check-box.purple label>i {
+  color: #a67dd6;
+}
+
+.todo-check-box.purple input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #f3eafd;
+  border-color: #a67dd6;
+}
+
+.todo-check-box.black label {
+  background-color: #e5e5e5;
+  border: 1px solid #5a5a5a;
+}
+
+.todo-check-box.black label>i {
+  color: #5a5a5a;
+}
+
+.todo-check-box.black input[type="checkbox"]:checked+.todo-check-label {
+  background-color: #e5e5e5;
+  border-color: #5a5a5a;
+}
+
+
+@media screen and (max-width: 998px) {
+  .todo-check-box {
+    left: 30px;
+  }
+}

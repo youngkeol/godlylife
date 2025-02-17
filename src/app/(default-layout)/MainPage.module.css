@@ -1,0 +1,91 @@
+.contents-inner-box {
+  position: relative;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 0px 40px 40px 40px;
+}
+
+.con-left-box {
+  width: calc(100% - 320px);
+  height: 100%;
+}
+
+
+.con-right-box {
+  width: 300px;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+  background-color: #fff;
+  border-radius: 20px;
+  height: 100%;
+  border: 1px solid #eaeaea;
+  padding: 20px 0;
+  overflow: auto;
+}
+
+.sel-todo_date {
+  --font-family: 'KOTRA_BOLD';
+  font-family: 'NanumBarunGothic';
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 14px;
+  padding:0 20px;
+}
+
+
+
+
+
+
+
+
+.mobile-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 20px 20px 18px 20px;
+}
+
+.mobile-con-box {
+  padding-top: 230px;
+  width: 100%;
+}
+
+.mobile-sel-month {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.mobile-sel-month>i {
+  position: relative;
+  top: 2px;
+}
+
+
+
+.mobile-fixed>div {
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+@media screen and (max-width: 998px) {
+  .contents-inner-box {
+    flex-direction: column;
+    padding:0 20px 20px 20px;
+
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+
+}

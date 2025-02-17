@@ -1,0 +1,51 @@
+.contents-inner-box {
+  display: flex;
+  gap: 40px;
+  height: 100%;
+  min-height: 700px;
+  padding: 20px 40px;
+
+}
+
+.con-left-box {
+  width: 300px;
+}
+
+.con-right-box {
+  width: calc(100% - 340px);
+}
+
+
+.fix-box {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  background-color: #fbfbfb;
+  z-index: 10;
+}
+
+
+@media screen and (max-width: 998px) {
+  .contents-inner-box {
+    flex: unset;
+    display: block;
+    padding: 20px;
+  }
+  .con-left-box { 
+    width: 100%;
+  }
+  .fix-box {
+    width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        padding: 20px 20px 18px 20px;
+        z-index: 10;
+        background-color: #fbfbfb;
+  }
+
+  .con-right-box {
+    width: 100%;
+    padding-top:121px;
+  }
+}

@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 700;
+  src: local('NanumSquareRound'),
+    url('./NanumSquareRoundOTFEB.otf') format('opentype'),
+    url('./NanumSquareRoundEB.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 500;
+  src: local('NanumSquareRound'),
+    url('./NanumSquareRoundOTFB.otf') format('opentype'),
+    url('./NanumSquareRoundB.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumSquareRound'),
+    url('./NanumSquareRoundOTFR.otf') format('opentype'),
+    url('./NanumSquareRoundR.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 300;
+  src: local('NanumSquareRound'),
+    url('./NanumSquareRoundOTFL.otf') format('opentype'),
+    url('./NanumSquareRoundL.ttf') format('truetype');
+}
+
+
+
+

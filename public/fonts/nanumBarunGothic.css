@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('NanumBarunGothic'),
+    url('./NanumBarunGothicBold.otf') format('opentype'),
+    url('./NanumBarunGothicBold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 500;
+  src: local('NanumBarunGothic'),
+    url('./NanumBarunGothic.otf') format('opentype'),
+    url('./NanumBarunGothic.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumBarunGothic'),
+    url('./NanumBarunGothicLight.otf') format('opentype'),
+    url('./NanumBarunGothicLight.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: local('NanumBarunGothic'),
+    url('./NanumBarunGothicUltraLight.otf') format('opentype'),
+    url('./NanumBarunGothicUltraLight.ttf') format('truetype');
+}
+

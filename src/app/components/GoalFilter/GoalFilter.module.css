@@ -1,0 +1,150 @@
+
+.goal-filter-box {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 19px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+}
+
+.goal-filter-status-tag,
+.goal-filter-color-tag{
+  font-size: 12px;
+  padding:5px 6px 4px;
+  border-radius: 10px;
+  background-color: #5b78eb;
+  color:#fff;
+}
+
+.goal-filter-tit {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 14px 46px 14px 14px;
+  cursor: pointer;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.goal-filter-box .filter-arr {
+  position: absolute;
+  right:20px;
+  top:50%;
+  transform: translateY(-50%);
+  transition: 0.3s all;
+}
+
+.goal-filter-box.active .filter-arr {
+  transform: translateY(-50%) rotate(180deg)
+}
+
+
+.goal-filter-box .goal-filter-con {
+  display: none;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.goal-filter-box.active .goal-filter-con {
+  display: block;
+  border-top: 1px solid #eaeaea;
+}
+
+
+.filter-con-each {
+  margin-bottom: 25px;
+}
+
+
+
+.filter-con-each h4 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.filter-con-each h4 span {
+  font-size: 12px;
+  color:#7d7d7d
+}
+
+.filter-con-each ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-con-each ul li {
+  position: relative;
+  margin: 13px 5px 0px 5px;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+.status-active, .color-active {
+  background-color: #5b78eb;
+  color:#fff;
+}
+
+
+
+.filter-list-box {
+  display: flex;
+  border-top: 1px solid #eaeaea;
+  padding: 20px 10px 0px 10px
+}
+
+.filter-list-box ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-list-box li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 5px 24px 5px 10px;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+}
+
+.filter-list-box .filter-list-all {
+  padding: 5px 10px 5px 10px;
+}
+
+.filter-list-box  .filter-list-gap {
+  border:none;
+  width: 1px;
+  padding:0;
+  height: 14px;
+  background-color: #b1b1b1;
+}
+
+.filter-list-box li span {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: block;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  color: #bcbcbc;
+  cursor: pointer;
+}
+
+.filter-list-box li span>i {
+  font-size: 15px;
+  color: #787878;
+}

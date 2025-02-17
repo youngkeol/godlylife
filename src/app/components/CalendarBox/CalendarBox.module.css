@@ -1,0 +1,19 @@
+.calendar-box {
+  padding-top:16px;
+  height: 100%;
+  border:1px solid #eaeaea;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgb(180 180 180 / 10%);
+  overflow: hidden;
+  background-color: #fff;
+  padding: 30px 20px 30px 20px;
+}
+
+.calendar-todo {
+ text-decoration: none; 
+}
+.calendar-todo-completed{
+  text-decoration-line: line-through;
+  text-decoration-color: #424242;
+}
+

@@ -1,0 +1,65 @@
+.memo-list {}
+
+
+.memo-list-empty {
+  padding: 15px;
+  text-align: center;
+  line-height: 1.6;
+}
+.memo-list-item {
+  position: relative;
+  display: flex;
+  min-height: 50px;
+  padding: 16px 45px 16px 34px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.memo-list-item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eaeaea;
+}
+
+/* .memo-list-item:last-of-type:after {
+  content:none;
+} */
+
+.memo-list-drag {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 18px;
+}
+
+.memo-list-title {
+  width: 100%;
+  white-space: nowrap;
+  /*튀어나온 것을 없앤다*/
+  overflow: hidden;
+  /*글자가 넘을 경우 ...만들기*/
+  text-overflow: ellipsis;
+}
+
+.memo-list-arr {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aeaeae;
+}
+
+@media screen and (max-width: 998px) {
+  .memo-list-item:last-of-type:after {
+    content: none;
+  }
+}

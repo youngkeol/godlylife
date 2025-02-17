@@ -1,0 +1,41 @@
+/*달력 스타잃 수정*/
+.modal-calendar {
+  padding:25px 30px 20px 30px;
+  border-radius: 10px 10px 0 0;
+  border-bottom:none;
+  font-size: 16px !important;
+}
+
+.modal-calendar .react-calendar__navigation .react-calendar__navigation__prev2-button,
+.modal-calendar .react-calendar__navigation__next2-button
+{
+  display: none;
+}
+
+.modal-calendar.react-calendar  .react-calendar__year-view__months {
+  display: flex;
+  flex-direction: row; /* 자식들이 가로로 배치되도록 설정 */
+  --gap: 10%; /* 자식 간의 간격 */
+}
+.modal-calendar.react-calendar button {
+  border-radius: 10px;
+  flex: 0 0 30%; /* 각 자식의 너비를 30%로 설정 */
+  padding:10px;
+}
+
+.modal-calendar .react-calendar__tile--hasActive {
+  background-color: #5b78eb;
+}
+
+
+.modal-calendar .react-calendar__tile--hasActive > abbr {
+  color:#fff;
+}
+
+.modal-calendar  .react-calendar__tile--now {
+  background-color: #d0daff;
+}
+
+.modal-calendar  .react-calendar__tile--now:hover {
+  background-color: #d0daff;
+}

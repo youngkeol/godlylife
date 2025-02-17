@@ -1,0 +1,23 @@
+.con-list-box {
+  width: 100%;
+  min-height: 100%;
+  /* border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 4px 4px 4px rgb(180 180 180 / 10%);
+  background-color: #fff; */
+}
+
+.goal-add-btn-box {
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.goal-add-btn {
+  width: 100%;
+  height: 100%;
+  background-color: #5b78eb;
+  color: #fff;
+  font-weight: 500;
+}

@@ -1,0 +1,240 @@
+.curstom-calendar {
+  width: 100%;
+  height: 750px;
+  --font-family: 'NanumBarunGothic';
+  --font-family: 'KOTRA_BOLD';
+  color:#727272;
+  font-size: 14px;
+
+}
+
+
+/* 툴바 */
+.curstom-calendar .rbc-toolbar {
+  justify-content: space-between;
+  margin:0 10px 20px;
+}
+.curstom-calendar .rbc-toolbar .rbc-toolbar-label {
+  flex-grow: unset;
+  font-size: 24px;
+  --font-family: 'KOTRA_BOLD';
+  --font-family: 'NanumBarunGothic';
+  font-weight: 600;
+  padding-top:3px;
+}
+
+.curstom-calendar .rbc-toolbar button {
+  font-size: 12px;
+  height: 32px;
+  font-weight: 500;
+  border-right: none;
+  border-radius: 0;
+  border-color: #eaeaea;
+  color:#777777;
+  outline: none;
+}
+.curstom-calendar .rbc-toolbar button:first-of-type {
+  border-radius: 12px 0 0 12px;
+}
+.curstom-calendar .rbc-toolbar button:last-of-type {
+  border-right: 1px solid #eaeaea;
+  border-radius:  0 12px 12px 0;
+}
+
+.rbc-toolbar button:active:hover, .rbc-toolbar button:active:focus, .rbc-toolbar button.rbc-active:hover, .rbc-toolbar button.rbc-active:focus {
+  border-color: #eaeaea;
+}
+.curstom-calendar .rbc-toolbar i {
+  font-size: 13px;
+  padding-top:2px;
+  color:#777777;
+}
+
+
+
+
+
+
+/* 달력 */
+
+
+.curstom-calendar .rbc-toolbar {
+
+}
+
+.curstom-calendar .rbc-month-view {
+  border:1px solid #eaeaea;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.rbc-month-header {
+
+}
+
+.rbc-header > span {
+  display: block;
+  padding:10px 0 10px 0 ;
+  color:#4F4F4F;
+
+}
+
+.curstom-calendar .rbc-date-cell {
+  padding:8px 0px 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.curstom-calendar .rbc-button-link {
+  font-weight: 500;
+  padding:5px 5px 3px;
+  font-size: 13px;
+  color:#7c7c7c
+}
+
+.rbc-event-continues-prior {
+  border-radius: 5px;
+}
+
+
+
+/* 달력 컨텐츠 색상*/
+.rbc-event {
+  border-radius: 8px;
+  padding: 6px 10px;
+  background-color: #b3bffa60;
+}
+
+.rbc-event-content {
+  font-size: 12px;
+  font-weight: 500;
+  word-break: break-all;
+  color: #5673e8;
+}
+
+.rbc-event.red {
+  background-color: #fde7ec; /* 연한 핑크 */
+}
+
+.rbc-event.red .rbc-event-content {
+  color: #f28da3; /* 부드러운 레드 */
+}
+
+.rbc-event.yellow {
+  background-color: #fff6d5; /* 은은한 베이지 옐로우 */
+}
+
+.rbc-event.yellow .rbc-event-content {
+  color: #f4cd58; /* 따뜻한 골드 옐로우 */
+}
+
+.rbc-event.green {
+  background-color: #e3f6df; /* 밝은 민트 그린 */
+}
+
+.rbc-event.green .rbc-event-content {
+  color: #85d68c; /* 잔잔한 초록 */
+}
+
+.rbc-event.blue {
+  background-color: #e1f3fa; /* 연한 하늘색 */
+}
+
+.rbc-event.blue .rbc-event-content {
+  color: #63c8e1; /* 파스텔 블루 */
+}
+
+.rbc-event.purple {
+  background-color: #ede2fa; /* 연보라 */
+}
+
+.rbc-event.purple .rbc-event-content {
+  color: #a67dd6; /* 차분한 퍼플 */
+}
+
+.rbc-event.black {
+  background-color: #e0e0e0; /* 밝은 그레이 */
+}
+
+.rbc-event.black .rbc-event-content {
+  color: #5a5a5a; /* 부드러운 블랙 */
+}
+
+
+
+.rbc-row-segment {
+  padding:0px 5px 3px 5px;
+}
+
+
+
+.rbc-row-bg {
+ right:0;
+}
+/* 오늘 날짜 */
+.rbc-today {
+  --background-color: #fff;
+  background-color: #f8f9ff;
+}
+.curstom-calendar  .rbc-now > button {
+  background-color:#5b78eb;
+  color:#fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* off */
+.curstom-calendar .rbc-off-range-bg {
+  background-color: #f6f6f6;
+
+  /* background: repeating-linear-gradient(
+    140deg,
+    transparent 0px,
+    transparent 12px,
+    rgba(97, 97, 97, 0.1) 7px,
+    rgba(97, 97, 97, 0.1) 13px 
+  ); */
+}
+
+/* more 버튼 */
+.rbc-row-segment> button {
+  margin:0 auto;
+  font-size: 12px;
+  padding:10px;
+  color:#4F4F4F;
+  background-color: transparent;
+}
+.rbc-row-segment > .rbc-show-more, .rbc-show-more:hover, .rbc-show-more:focus {
+  color:#4F4F4F;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* more - 팝업 */
+.rbc-overlay {
+  border-radius: 12px;
+  max-height: 250px;
+  max-width: 250px;
+  overflow: auto;
+}
+.rbc-overlay-header {
+  padding: 10px 10px 6px 10px;
+}
+
+
+
+
+.rbc-header{
+  border-bottom: 1px solid #eaeaea;
+}
+
+.rbc-header + .rbc-header {
+  border-left: 1px solid #eaeaea;
+}
+
+.rbc-month-row + .rbc-month-row {
+  border-top: 1px solid #eaeaea;
+}
+.rbc-day-bg + .rbc-day-bg {
+  border-left: 1px solid #eaeaea;
+}

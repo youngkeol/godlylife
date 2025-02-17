@@ -1,0 +1,36 @@
+.calendar-list-box {
+  width: calc(100% + 40px);
+  margin-left:-20px;
+}
+
+.swiper-slide-item {
+  width: 50px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.swiper-slide-item.active {
+  background-color: #5b78eb;
+  color: #fff;
+}
+
+.swiper-slide-item-weekdays {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.swiper-slide-item-day {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.swiper-slide-item.active .swiper-slide-item-weekdays {
+  color: #fff;
+}
+
+.swiper-slide-item.active .swiper-slide-item-day {
+  color: #fff;
+}
