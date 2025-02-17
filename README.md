@@ -1,9 +1,9 @@
 # 갓생
 
 ### 📑목차<br>
-- [👼🏻 갓생 소개](#user-content-갓생-소개)<br>
-- [🛠 사용 기술](#user-content-사용-기술)<br>
-- [👍🏻 후기](#user-content-후기)<br>
+- [👼🏻 갓생 소개](#user-content--갓생-소개)<br>
+- [🛠 사용 기술](#user-content--사용-기술)<br>
+- [👍🏻 후기](#user-content--후기)<br>
 <br>
 <br>
 <br>
